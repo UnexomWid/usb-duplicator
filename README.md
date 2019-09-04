@@ -17,7 +17,7 @@ _I am **NOT** responsible for any type of misuses and/or damages done by this so
 
 >Note: versions with the suffix **R** are considered stable releases, while those with the suffix **D** are considered unstable.
 
-None.
+[v2.0R](https://github.com/UnexomWid/usb-duplicator/releases/tag/v2.0R) - September 4, 2019
 
 # USB Duplicator
 
