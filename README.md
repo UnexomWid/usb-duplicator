@@ -39,6 +39,8 @@ Where:
 * _{MILLISECOND}_ - The current millisecond
 * _{DRIVE_NAME}_ - The drive name, or `USB Drive` if the drive doesn't have a name
 
+To see what arguments the application accepts, launch it with the `-h` or `--help` flag (_e.g. `usbd.exe -h`_), or read below.
+
 # Whitelist & Blacklist
 
 By default, USB Duplicator copies files from _all_ USB drives when they are plugged in. However, you can specify which drives you wish to copy from.
