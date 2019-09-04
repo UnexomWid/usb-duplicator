@@ -142,7 +142,7 @@ namespace USBDuplicator
             }
 
             // You can replace File.Copy with File.Move, or another method that accepts 2 string parameters (the source and destination).
-            ProcessFiles(e.NewEvent.Properties["DriveName"].Value.ToString() + "\\", "*", File.Copy, destination);
+            ProcessFiles(source + "\\", "*", File.Copy, destination);
 
             Log("\r\nSuccessfully snatched " + driveName + "");
         }

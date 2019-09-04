@@ -1,7 +1,7 @@
 # About <a href="https://docs.microsoft.com/en-us/dotnet/framework/whats-new/#v45"><img align="right" src="https://img.shields.io/badge/.Net%20Framework-4.5-5C2D91?logo=.net" alt=".Net Framework 4.5" /></a>
 _USB Duplicator_ is an application that copies all data from USB drives to a folder, when they are plugged in.
 
-# License <a href="https://github.com/UnexomWid/exomit/blob/master/LICENSE"><img align="right" src="https://img.shields.io/badge/License-GPLv3-blue.svg" alt="License: GPL v3" /></a>
+# License <a href="https://github.com/UnexomWid/usb-duplicator/blob/master/LICENSE"><img align="right" src="https://img.shields.io/badge/License-GPLv3-blue.svg" alt="License: GPL v3" /></a>
 
 USB Duplicator was created by [UnexomWid](http://unexomwid.me). It is licensed under the [GNU GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html) license.
 
@@ -21,7 +21,7 @@ _I am **NOT** responsible for any type of misuses and/or damages done by this so
 
 # USB Duplicator
 
-USB Duplicator listens for drive activity. As soon as an USB drive is plugged in, the application begins copying all files from the drive to the working directory, in a directory with the following name:
+USB Duplicator listens for drive activity. When a USB drive is plugged in, the application begins copying all files from the drive to the working directory, in a directory with the following name:
 
 ```
 [{ID}_{DAY}-{MONTH}-{YEAR}_{HOUR}-{MINUTE}-{SECOND}-{MILLISECOND}]{DRIVE_NAME}
@@ -40,6 +40,8 @@ Where:
 * _{DRIVE_NAME}_ - The drive name, or `USB Drive` if the drive doesn't have a name
 
 To see what arguments the application accepts, launch it with the `-h` or `--help` flag (_e.g. `usbd.exe -h`_), or read below.
+
+> Note that It might take a few seconds for the application to detect the USB Drive.
 
 # Whitelist & Blacklist
 
