@@ -1,9 +1,9 @@
 # About <a href="https://docs.microsoft.com/en-us/dotnet/framework/whats-new/#v45"><img align="right" src="https://img.shields.io/badge/.Net%20Framework-4.5-5C2D91?logo=.net" alt=".Net Framework 4.5" /></a>
 _USB Duplicator_ is an application that copies all data from USB drives to a folder, when they are plugged in.
 
-# License <a href="https://github.com/UnexomWid/usb-duplicator/blob/master/LICENSE"><img align="right" src="https://img.shields.io/badge/License-GPLv3-blue.svg" alt="License: GPL v3" /></a>
+# License <a href="https://github.com/UnexomWid/usb-duplicator/blob/master/LICENSE"><img align="right" src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT" /></a></a>
 
-USB Duplicator was created by [UnexomWid](http://unexomwid.me). It is licensed under the [GNU GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html) license.
+USB Duplicator was created by [UnexomWid](https://uw.exom.dev). It is licensed under the [MIT](https://github.com/UnexomWid/usb-duplicator/blob/master/LICENSE) license.
 
 # Disclaimer
 
